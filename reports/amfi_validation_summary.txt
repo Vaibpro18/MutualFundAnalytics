@@ -1,0 +1,7 @@
+AMFI Validation Summary
+
+Total Fund Master Codes: 40
+Total NAV History Codes: 40
+Missing Codes: 0
+
+All AMFI codes from fund_master exist in nav_history.
