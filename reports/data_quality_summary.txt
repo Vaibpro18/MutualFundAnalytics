@@ -1,0 +1,11 @@
+Data Quality Summary
+
+All 10 datasets were successfully loaded and validated using Pandas.
+
+- Dataset structures, data types, and sample records were reviewed.
+- No duplicate records were found in any dataset.
+- Most datasets contained no missing values.
+- The column yoy_growth_pct in 04_monthly_sip_inflows.csv contains 12 missing values.
+- Other columns were complete and consistent with the expected schema.
+
+The datasets are suitable for further analysis and NAV processing.
