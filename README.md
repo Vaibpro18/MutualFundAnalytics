@@ -2,46 +2,74 @@
 
 Capstone Project - Bluestock Fintech
 
-## Day 1
-- Project Setup
-- Data Ingestion
-- NAV Data Fetching
-- Data Validation
+# Day 1
 
-## Day 2
-- NAV History Data Cleaning
-- Investor Transactions Data Cleaning
-- Data Dictionary Creation
-- SQL Schema Design
-- SQL Analytical Queries
-- Processed datasets generated
+## Project Setup & Data Ingestion (ETL)
 
-## Technologies Used
-- Python
-- Pandas
-- SQLite
-- SQL
-- Git & GitHub
+### Work Completed
 
-## Day 3
+* Created project structure and Git repository
+* Loaded and explored mutual fund datasets
+* Fetched live NAV data using MFAPI
+* Validated AMFI codes and scheme data
+* Generated data quality summary
 
-### Exploratory Data Analysis (EDA)
+### Deliverables
+
+* data_ingestion.py
+* live_nav_fetch.py
+* amfi_validation.py
+* requirements.txt
+
+### Key Findings
+
+* Successfully collected and validated mutual fund data.
+* Verified AMFI mappings and NAV availability.
+
+
+# Day 2
+
+## Data Cleaning & SQL Database Design
+
+### Work Completed
+
+* Cleaned and standardized datasets
+* Handled missing values and duplicates
+* Designed SQLite database schema
+* Loaded cleaned data into SQLite
+* Created analytical SQL queries
+* Prepared data dictionary
+
+### Deliverables
+
+* data_cleaning.py
+* data_cleaning_transactions.py
+* schema.sql
+* queries.sql
+* data_dictionary.md
+
+### Key Findings
+
+* Improved data quality and consistency.
+* Built a structured database for analysis.
+
+
+# Day 3
+
+## Exploratory Data Analysis (EDA)
+
+### Work Completed
 
 * Performed comprehensive EDA on mutual fund datasets
-* Generated 15+ visualizations and exported PNG reports
-* Investor age group distribution analysis
-* Gender-wise investment analysis
-* Mutual fund category performance analysis
-* Sector-wise portfolio allocation analysis
-* Top holdings analysis across mutual funds
-* Risk vs Return analysis
-* Fund house AUM analysis
-* Scheme category distribution analysis
-* Direct vs Regular plan distribution analysis
-* Expense ratio distribution analysis
-* AUM vs 3-Year return analysis
-* Generated interactive NAV and SIP trend reports
-* Added insights and final conclusions for all analyses
+* Analyzed NAV and SIP trends
+* Conducted AUM growth analysis
+* Examined investor demographics and geographic distribution
+* Analyzed fund category and sector allocation patterns
+* Performed risk vs return analysis
+* Studied top holdings across mutual funds
+* Generated correlation and distribution analyses
+* Created interactive reports and visualizations
+* Documented insights and conclusions
 
 ### Deliverables
 
@@ -49,7 +77,14 @@ Capstone Project - Bluestock Fintech
 * 15+ Charts and Visualizations
 * PNG Reports
 * Interactive HTML Reports
-* Analytical Insights and Conclusions
+
+### Key Findings
+
+* Equity funds dominated overall AUM growth.
+* SIP inflows showed consistent long-term growth.
+* Risk-return profiles varied significantly across fund categories.
+* Sector allocation and top holdings revealed portfolio concentration trends.
+
 
 # Day 4
 
