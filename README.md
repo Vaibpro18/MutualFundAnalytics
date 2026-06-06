@@ -50,3 +50,43 @@ Capstone Project - Bluestock Fintech
 * PNG Reports
 * Interactive HTML Reports
 * Analytical Insights and Conclusions
+
+# Day 4
+
+## Performance Analytics
+
+Performed advanced mutual fund performance evaluation using risk-adjusted metrics and benchmark comparison.
+
+### Analysis Completed
+
+- CAGR (Compound Annual Growth Rate) analysis
+- Maximum Drawdown analysis
+- Sharpe Ratio analysis
+- Sortino Ratio analysis
+- Alpha and Beta calculation
+- Benchmark comparison against NIFTY50 and NIFTY100
+- Tracking Error analysis
+- Fund performance scorecard generation
+- Risk-adjusted performance evaluation
+- Generated performance reports and visualizations
+
+### Deliverables
+
+- Performance_Analytics.ipynb
+- alpha_beta.csv
+- sharpe_ratio.csv
+- sortino_ratio.csv
+- tracking_error.csv
+- fund_scorecard.csv
+- benchmark_comparison.png
+- alpha_comparison.png
+- beta_comparison.png
+- cagr_comparison.png
+- max_drawdown.png
+
+### Key Insights
+
+- Kotak Bluechip and Nippon Largecap showed strong long-term growth.
+- Benchmark comparison highlighted differences between active fund management and passive indices.
+- Tracking error analysis measured benchmark-following efficiency.
+- Risk-adjusted metrics provided a more complete picture than returns alone.
